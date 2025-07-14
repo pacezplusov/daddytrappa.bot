@@ -20,6 +20,8 @@ func HandlePhrase(text string) string {
 		return "боряе ты меня пздц доебать решил"
 	case strings.Contains(text, "суббота"):
 		return "она помогла мне не занами"
+	case strings.Contains(text, "верни"):
+		return "я тебе завтра сотку отдам"
 	default:
 		return ""
 	}
